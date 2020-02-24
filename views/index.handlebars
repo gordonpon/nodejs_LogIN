@@ -13,8 +13,11 @@
                         <input type="password" class="form-control" id="txbPassword" name="txbPassword" placeholder="Password" value="{{txbPassword}}">
                     </div>
                     {{#if message}}
-                        <i class="fas fa-info-circle text-danger "></i><span class="text-danger text-center">{{message}}</span>
+                    <h5 class="text-center">
+                        <i class="fa fa-exclamation text-danger mr-2" aria-hidden="true"></i></i><span class="text-danger">{{message}}</span>
+                    </h5>
                     {{/if}}
+                    
                     <div class="row justify-content-center">
                         <div class="m-3">
                             <button type="submit" class="btn btn-outline-dark">Sign in</button>
