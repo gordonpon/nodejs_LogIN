@@ -1,11 +1,11 @@
-# 「簡單版」的登入功能(1)
-***
+# 「簡單版」的登入功能
+
 簡易登入功能實作，實用剛學到的工具（Express、路由等）去思考「登入功能」是怎麼做的、  
 去熟悉如何處理從 client 傳送來的 request 裡的資料、以及練習如何設計使用者介面與訊息。  
 
 
 ## 使用套件
-***
+
 [Node.js](https://nodejs.org/zh-tw/)  
 [npm](https://www.npmjs.com/)  
 [express](https://www.npmjs.com/package/express)  
@@ -13,11 +13,11 @@
 [body-parser](https://www.npmjs.com/search?q=body-parser)  
 
 ## 終端機  
-***
+
 [cmder](https://cmder.net/)
 
 ## 安裝步驟
-***
+
 `git clone` 將專案下載至本機端  
 ```console
 git clone https://github.com/gordonpon/nodejs_LogIN.git
